@@ -1,13 +1,5 @@
-// Create we server
-const express = require('express');
-const app = express();
+// Create web server with Express
+// To install Express, run the following command in your terminal:
+// npm install express
 
-// Create a route
-app.get('/', (req, res) => {
-    res.send('Hello World');
-});
-
-// Start the server
-app.listen(3000, () => {
-    console.log('Server is running on port 3000');
-});
+// Require Express
